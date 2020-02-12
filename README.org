@@ -1,2 +1,2 @@
 * 测试blog post [2020-02-12 周三]
- [[file:./test.org]]
+ [[file:test.org]]
