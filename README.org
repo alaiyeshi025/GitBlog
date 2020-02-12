@@ -1,7 +1,6 @@
 * 目录                                                                  :TOC:
 - [[#emacs][Emacs]]
-  - [[#org-mode-相关][Org-mode 相关]]
+  - [[#org-mode][Org-mode]]
 
 * Emacs
-** [[file:org_tips.org][Org-mode 相关]]
-
+** [[file:org_tips.org][Org-mode]]
