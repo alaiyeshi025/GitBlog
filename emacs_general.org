@@ -1,7 +1,7 @@
 * 目录                                                                  :TOC:
-- [[#多线程][多线程]]
+- [[#异步执行][异步执行]]
 
-* 多线程
+* 异步执行
   #+begin_src emacs-lisp
-    (make-thread)
+    (async-start START-FUNC FINISH-FUNC) ;;FINISH-FUNC 为回调函数
   #+end_src
