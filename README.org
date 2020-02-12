@@ -1,6 +1,6 @@
 * 目录                                                                  :TOC:
 - [[#emacs][Emacs]]
-  - [[#2020-02-12-周三-2158--为-gitblog-定制的org-capture-寻址函数][[2020-02-12 周三 21:58] : 为 GitBlog 定制的org-capture 寻址函数]]
+  - [[#org-mode-相关][Org-mode 相关]]
 
 * Emacs
-** [2020-02-12 周三 21:58] : [[org_tips.org::*为 GitBlog 定制的org-capture 寻址函数][为 GitBlog 定制的org-capture 寻址函数]]
+** [[file:org_tips.org][Org-mode 相关]]
