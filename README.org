@@ -1,12 +1,13 @@
-* ZKP
-** [[file:zkp.org][Concepts & thoughts]]
 * 目录                                                                  :TOC:
-- [[#zkp][ZKP]]
-  - [[#concepts--thoughts][Concepts & thoughts]]
 - [[#emacs][Emacs]]
   - [[#org-mode][Org-mode]]
   - [[#emacs-general][Emacs General]]
+- [[#zkp][ZKP]]
+  - [[#materials-digest][Materials digest]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
 ** [[file:emacs_general.org][Emacs General]]
+
+* ZKP
+** [[file:zkp.org][Materials digest]]
