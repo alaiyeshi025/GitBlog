@@ -1,4 +1,8 @@
+* ZKP
+** [[file:zkp.org][Concepts & thoughts]]
 * 目录                                                                  :TOC:
+- [[#zkp][ZKP]]
+  - [[#concepts--thoughts][Concepts & thoughts]]
 - [[#emacs][Emacs]]
   - [[#org-mode][Org-mode]]
   - [[#emacs-general][Emacs General]]
