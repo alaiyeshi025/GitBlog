@@ -8,7 +8,8 @@
         (let* ((heading (read-string "Heading: ")))
           (goto-char 0)
           (unless (search-forward (format "* %s" heading) nil t)
-            (insert (format "* %s\n" heading))
-            (goto-line -1))))
+            (goto-char (point-max))
+            (insert (format "\n* %s" heading))
+            (save-buffer))))
   #+end_src
-  如果存在同名Heading，则作为子节点插入，否则新建Heading。
+  如果存在同名Heading，则作为子节点插入，否则在文末新建Heading。
