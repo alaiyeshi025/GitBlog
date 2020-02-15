@@ -5,6 +5,12 @@
 - [[#zkp][ZKP]]
   - [[#materials-digest][Materials digest]]
   - [[#possible-solutions][Possible solutions]]
+- [[#tee][TEE]]
+  - [[#sgx][SGX]]
+  - [[#trustzone][Trustzone]]
+  - [[#others][Others]]
+- [[#federated-learning][Federated Learning]]
+  - [[#general][General]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -13,3 +19,11 @@
 * ZKP
 ** [[file:zkp.org][Materials digest]]
 ** [[file:zkp_solutions.org][Possible solutions]]
+
+* TEE
+** [[file:sgx.org][SGX]]
+** [[file:trustzone.org][Trustzone]]
+** [[file:other_tee.org][Others]]
+
+* Federated Learning
+** [[file:fl_general.ora][General]]
