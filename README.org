@@ -14,6 +14,8 @@
 - [[#block-chain][Block Chain]]
   - [[#hyperledger][Hyperledger]]
   - [[#ethereum][Ethereum]]
+- [[#books][Books]]
+  - [[#sicp][SICP]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -34,3 +36,6 @@
 * Block Chain
 ** [[file:hyperledger.org][Hyperledger]]
 ** [[file:ethereum.org][Ethereum]]
+
+* Books
+** [[file:sicp.org][SICP]]
