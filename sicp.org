@@ -1,0 +1,33 @@
+* 目录                                                                  :TOC:
+- [[#supporting-functions-for-281-and-282-exercises][Supporting functions for 2.81 and 2.82 exercises]]
+
+* Supporting functions for 2.81 and 2.82 exercises
+  #+begin_src scheme
+    ;;supporting function for type cierctions
+    (require "ch2support.scm") ;codes comes along with text book, which define table and assotiated operations
+    (require "chap2_real.rkt") ;exercises for real number part of SICP, which provides rational and polar packages. This file can be found in my private Git repository "SICP"
+
+    (define *coercion-table* (make-table))
+
+    (define (put-coercion type1 type2 proc)
+      ((*coercion-table* 'insert-proc!) type1 type2 proc))
+
+    (define (get-coercion type1 type2)
+      ((*coercion-table* 'lookup-proc) type1 type2))
+
+    (define (install-coercion-package)
+      (define (scheme-number->complex n)
+        (make-complex-from-real-imag (contents n) 0))
+      (define (scheme-number->rational n)
+        (make-rational (contents n) 1))
+      (put-coercion 'scheme-number 'rational scheme-number->rational)
+      (put-coercion 'scheme-number 'complex scheme-number->complex)
+      'done)
+
+    (install-coercion-package)
+    (install-complex-package)
+    (install-scheme-number-package)
+    (install-rational-package)
+    (install-rectangular-package)
+    (install-polar-package)
+  #+end_src
