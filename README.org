@@ -2,6 +2,7 @@
 - [[#emacs][Emacs]]
   - [[#org-mode][Org-mode]]
   - [[#emacs-general][Emacs General]]
+  - [[#gnus][GNUs]]
 - [[#zkp][ZKP]]
   - [[#materials-digest][Materials digest]]
   - [[#possible-solutions][Possible solutions]]
@@ -22,7 +23,7 @@
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
 ** [[file:emacs_general.org][Emacs General]]
-
+** [[file:gnus.org][GNUs]]
 * ZKP
 ** [[file:zkp.org][Materials digest]]
 ** [[file:zkp_solutions.org][Possible solutions]]

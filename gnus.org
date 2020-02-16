@@ -1,0 +1,9 @@
+* 目录                                                                  :TOC:
+- [[#自动加解密-authinfo][自动加解密 authinfo]]
+
+* 自动加解密 authinfo
+  - 修改 auth-sources 变量到相应 .authinfo.gpg 文件
+  - 生成公私钥对 gpg --full-generate-key
+  - 加密 authinfo 文件 gpg --encrypt .autinfo 得到 .authinfo.gpg 文件
+  - 参考 [[file:linux_general.org]] 中 "Fixing GPG 'Inappropriate ioctl for device' errors" 一节
+  - shell profile 文件中加入： export GPG_TTY=$(tty)
