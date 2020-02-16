@@ -1,0 +1,7 @@
+* 目录                                                                  :TOC:
+- [[#如何解压-tarxz-文件][如何解压 tar.xz 文件]]
+
+* 如何解压 tar.xz 文件
+  #+begin_src shell
+    tar xvJf *.tar.xz
+  #+end_src

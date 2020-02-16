@@ -16,6 +16,8 @@
   - [[#ethereum][Ethereum]]
 - [[#books][Books]]
   - [[#sicp][SICP]]
+- [[#linux][Linux]]
+  - [[#linux-general][Linux general]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -39,3 +41,6 @@
 
 * Books
 ** [[file:sicp.org][SICP]]
+
+* Linux
+** [[file:linux_general.org][Linux general]]
