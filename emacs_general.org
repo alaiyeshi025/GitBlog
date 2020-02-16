@@ -41,4 +41,6 @@
 
    systemctl enable --user emacs
    systemctl start --user emacs
+
+   -- from EmacsWiki
    #+end_quote
