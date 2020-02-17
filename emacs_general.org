@@ -24,7 +24,7 @@
    Systemd is the supported method of running applications at startup on most Linux distributions. The following configuration file emacs.service will be included in the standard Emacs installation as of 26.1. All you need to do is copy this to ~/.config/systemd/user/emacs.service .
 
    [Unit]
-   
+
    Description=Emacs text editor
 
    Documentation=info:emacs man:emacs(1) https://gnu.org/software/emacs/
@@ -48,6 +48,7 @@
    Enable the unit by running:
 
    systemctl enable --user emacs
+   
    systemctl start --user emacs
 
    -- from EmacsWiki
