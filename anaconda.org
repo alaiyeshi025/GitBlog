@@ -1,0 +1,6 @@
+* 清理无用缓存
+  #+begin_src anaconda
+    conda clean -p      //删除没有用的包
+    conda clean -t      //tar打包
+    conda clean -y -all //删除所有的安装包及cache
+  #+end_src
