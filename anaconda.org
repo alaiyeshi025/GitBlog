@@ -1,3 +1,6 @@
+* 目录                                                                  :TOC:
+- [[#清理无用缓存][清理无用缓存]]
+
 * 清理无用缓存
   #+begin_src anaconda
     conda clean -p      //删除没有用的包
