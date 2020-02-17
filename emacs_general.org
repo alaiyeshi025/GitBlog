@@ -18,7 +18,7 @@
    - sudo apt install gnutls-dev
    - sudo apt install libncurses-dev
    - sudo apt install mailutils
-   - ./configure --with-mailutils
+   - ./configure --with-mailutils --with-xml2 --with-modules
 ** 作为 service 启动
    #+begin_quote
    Systemd is the supported method of running applications at startup on most Linux distributions. The following configuration file emacs.service will be included in the standard Emacs installation as of 26.1. All you need to do is copy this to ~/.config/systemd/user/emacs.service .
@@ -48,7 +48,7 @@
    Enable the unit by running:
 
    systemctl enable --user emacs
-   
+
    systemctl start --user emacs
 
    -- from EmacsWiki
