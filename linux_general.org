@@ -1,6 +1,8 @@
 * 目录                                                                  :TOC:
 - [[#如何解压-tarxz-文件][如何解压 tar.xz 文件]]
 - [[#fixing-gpg-inappropriate-ioctl-for-device-errors][Fixing GPG "Inappropriate ioctl for device" errors]]
+- [[#warning-remote-host-identification-has-changed][WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!]]
+- [[#如何在ubuntu-1804上安装和配置vnc][如何在Ubuntu 18.04上安装和配置VNC]]
 
 * 如何解压 tar.xz 文件
   #+begin_src shell
@@ -8,7 +10,7 @@
   #+end_src
 * Fixing GPG "Inappropriate ioctl for device" errors
   from https://d.sb/2016/11/gpg-inappropriate-ioctl-for-device-errors
-  
+
   #+begin_quote
   Recently I moved all my sites onto a new server. I use Duplicity and Backupninja to perform weekly backups of my server. While configuring backups on the new server, I kept encountering a strange error:
 
@@ -29,3 +31,17 @@
 
   Then restart the agent with echo RELOADAGENT | gpg-connect-agent and you should be good to go!
   #+end_quote
+* WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+  known_hosts 文件中删除对应行即可。
+* 如何在Ubuntu 18.04上安装和配置VNC
+  from https://cloud.tencent.com/developer/article/1350304
+  ~/.vnc/xstartup 内容：
+  #+begin_src bash
+    #!/bin/bash
+    xrdb $HOME/.Xresources
+    startxfce4 &
+  #+end_src
+  ~/.bashrc 中加入：
+  #+begin_src bash
+  alias vncserver='vncserver -geometry 1900x1040'
+  #+end_src
