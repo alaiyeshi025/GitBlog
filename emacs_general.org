@@ -3,6 +3,7 @@
 - [[#installation-in-linux][Installation in Linux]]
   - [[#configure][configure]]
   - [[#作为-service-启动][作为 service 启动]]
+- [[#helm-补全当前条目][Helm 补全当前条目]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -54,3 +55,5 @@
 
    -- from EmacsWiki
    #+end_quote
+* Helm 补全当前条目
+  C-j 这样可以避免中文名输入的麻烦，以及有的时候（例如treemacs）会混淆文件和文件夹了。
