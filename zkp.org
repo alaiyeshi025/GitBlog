@@ -10,19 +10,20 @@
 * 文摘
 ** ZKProof Community Reference
    https://zkproof.org/
-   #+begin_verse
-1. ZKP systems involve at least two parties: a prover and a verifier. The goal of
-the prover is to convince the verifier that a statement is true, without revealing any additional information.
+   #+begin_quote
+1. ZKP systems involve at least two parties: a prover and a verifier. The goal of the prover is to convince the verifier that a statement is true, without revealing any additional information.
+
 2. A ZKP system can be described with three components: setup, prove, verify. The setup, which can be implemented with various techniques, determines the initial state of the prover and the verifier, including private and common elements. The prove and verify components are the algorithms followed by the prover and verifier, respectively, possibly in an interactive manner. These algorithms are defined so as to ensure three main security requirements: completeness, soundness, and zero-knowledge.
-3. Completeness requires that if both prove and verify are correct, and if the
-statement is true, then at the end of the interaction the prover is convinced of this fact. Soundness requires that not even a malicious prover can convince the verifier of a false statement. Zero knowledge requires that even a malicious verifier cannot extract any information beyond the truthfulness of the given statement
-4. One important aspect to consider upfront is the representation of statements. An actual conversion suitable for ZKPs, namely for more complex statements, can pose an implementation challenge. There are nonetheless various techniques that enable converting a statement into a mathematical object, such as a circuit. This document gives special attention to representations based on a Rank-1 constraint system (R1CS) and quadratic
-arithmetic programs (QAP), which are adopted by several ZKP solutions in use today.
-5. Some of these claims (commonly known by the prover and verifier, and here
-described as informal statements) require a substrate (called instance, also commonly known by the prover and verifier) to support an association with the confidential information (called witness, known by the prover and to not be leaked during the proof process).
+
+3. Completeness requires that if both prove and verify are correct, and if the statement is true, then at the end of the interaction the prover is convinced of this fact. Soundness requires that not even a malicious prover can convince the verifier of a false statement. Zero knowledge requires that even a malicious verifier cannot extract any information beyond the truthfulness of the given statement
+
+4. One important aspect to consider upfront is the representation of statements. An actual conversion suitable for ZKPs, namely for more complex statements, can pose an implementation challenge. There are nonetheless various techniques that enable converting a statement into a mathematical object, such as a circuit. This document gives special attention to representations based on a Rank-1 constraint system (R1CS) and quadratic arithmetic programs (QAP), which are adopted by several ZKP solutions in use today.
+
+5. Some of these claims (commonly known by the prover and verifier, and here described as informal statements) require a substrate (called instance, also commonly known by the prover and verifier) to support an association with the confidential information (called witness, known by the prover and to not be leaked during the proof process).
+
 6. The theory of ZKPs distinguishes between proofs and arguments, as related to the computational power of the prover and verifier. Proofs need to be sound even against computationally unbounded provers, whereas arguments only need to preserve soundness against computationally bounded provers (often defined as probabilistic polynomial time algorithms). For simplicity, “proof” is used hereafter to designate both proofs and arguments, although there are theoretical circumstances where the distinction can be relevant.
-7. In the traditional notion of zero-knowledge, a ZKP system prevents the
-verifier from even being able to convincingly advertise having interacted in a legitimate proof execution. In other words, the verifier cannot transfer onto others the confidence gained about the proven statement. This property is sometimes called deniability or non-transferability, since a prover that has interacted as a legitimate prover in a proof is later able to plausibly deny having done so, even if the original verifier releases the transcript publicly. Transferability means that the verifier in a legitimate proof execution becomes able to convince an external party that the corresponding statement is true.
-8. There are several proposals to reduce the trust in the setup such as using
-secure multi-party computation to generate a CRS, using a multi-string model where there are many CRSs and security only relies on a majority being honestly generated, and subversion resistant CRS where zero-knowledge holds even against a maliciously generated CRS.
-   #+end_verse
+
+7. In the traditional notion of zero-knowledge, a ZKP system prevents the verifier from even being able to convincingly advertise having interacted in a legitimate proof execution. In other words, the verifier cannot transfer onto others the confidence gained about the proven statement. This property is sometimes called deniability or non-transferability, since a prover that has interacted as a legitimate prover in a proof is later able to plausibly deny having done so, even if the original verifier releases the transcript publicly. Transferability means that the verifier in a legitimate proof execution becomes able to convince an external party that the corresponding statement is true.
+
+8. There are several proposals to reduce the trust in the setup such as using secure multi-party computation to generate a CRS, using a multi-string model where there are many CRSs and security only relies on a majority being honestly generated, and subversion resistant CRS where zero-knowledge holds even against a maliciously generated CRS.
+   #+end_quote
