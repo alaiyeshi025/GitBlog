@@ -2,6 +2,7 @@
 - [[#如何解压-tarxz-文件][如何解压 tar.xz 文件]]
 - [[#fixing-gpg-inappropriate-ioctl-for-device-errors][Fixing GPG "Inappropriate ioctl for device" errors]]
 - [[#warning-remote-host-identification-has-changed][WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!]]
+- [[#配置vnc][配置VNC]]
 - [[#如何在ubuntu-1804上安装和配置vnc][如何在Ubuntu 18.04上安装和配置VNC]]
 
 * 如何解压 tar.xz 文件
@@ -33,6 +34,8 @@
   #+end_quote
 * WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
   known_hosts 文件中删除对应行即可。
+* 配置VNC
+   https://app.yinxiang.com/fx/cd25fe28-cad7-4495-a2ab-be31db955aa6
 * 如何在Ubuntu 18.04上安装和配置VNC
   from https://cloud.tencent.com/developer/article/1350304
   ~/.vnc/xstartup 内容：
