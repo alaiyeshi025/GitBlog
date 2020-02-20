@@ -4,6 +4,7 @@
 - [[#warning-remote-host-identification-has-changed][WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!]]
 - [[#配置vnc][配置VNC]]
 - [[#如何在ubuntu-1804上安装和配置vnc][如何在Ubuntu 18.04上安装和配置VNC]]
+- [[#git-unpacking-objects-卡住][git unpacking objects 卡住]]
 
 * 如何解压 tar.xz 文件
   #+begin_src shell
@@ -48,3 +49,5 @@
   #+begin_src bash
   alias vncserver='vncserver -geometry 1900x1040'
   #+end_src
+* git unpacking objects 卡住
+  将拉取地址从https 换成 git
