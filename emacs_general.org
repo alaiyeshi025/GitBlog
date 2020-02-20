@@ -4,6 +4,7 @@
   - [[#configure][configure]]
   - [[#作为-service-启动][作为 service 启动]]
 - [[#helm-补全当前条目][Helm 补全当前条目]]
+- [[#eaf-在-vnc4server-中有问题][EAF 在 vnc4server 中有问题]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -57,3 +58,5 @@
    #+end_quote
 * Helm 补全当前条目
   C-j 这样可以避免中文名输入的麻烦，以及有的时候（例如treemacs）会混淆文件和文件夹了。
+* EAF 在 vnc4server 中有问题
+  vnc4server 似乎对 Xorg 支持不好，运行不起来。改为 TigerVNC 后，问题解决……
