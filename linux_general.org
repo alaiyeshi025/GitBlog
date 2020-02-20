@@ -50,4 +50,4 @@
   alias vncserver='vncserver -geometry 1900x1040'
   #+end_src
 * git unpacking objects 卡住
-  将拉取地址从https 换成 git
+  将拉取地址从https 换成 git。起码可以显示下载进度:)
