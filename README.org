@@ -17,6 +17,7 @@
   - [[#ethereum][Ethereum]]
 - [[#books][Books]]
   - [[#sicp][SICP]]
+  - [[#佛学研究十八篇][佛学研究十八篇]]
 - [[#linux][Linux]]
   - [[#linux-general][Linux general]]
 - [[#python][Python]]
@@ -44,7 +45,7 @@
 
 * Books
 ** [[file:sicp.org][SICP]]
-
+** [[file:佛学研究十八篇.org][佛学研究十八篇]]
 * Linux
 ** [[file:linux_general.org][Linux general]]
 
