@@ -2,10 +2,12 @@
 - [[#参考材料][参考材料]]
 - [[#文摘][文摘]]
   - [[#zkproof-community-reference][ZKProof Community Reference]]
+  - [[#zk-snark][zk-SNARK]]
 
 * 参考材料
-  - https://zkp.science/
-  -
+  - https://zkp.science/ (白皮书比较有价值)
+  - https://qed-it.com/2017-12-20-the-incredible-machine/ (浅显的例子)
+  - https://www.jianshu.com/p/7b772e5cdaef (中文综述)
 
 * 文摘
 ** ZKProof Community Reference
@@ -27,3 +29,15 @@
 
 8. There are several proposals to reduce the trust in the setup such as using secure multi-party computation to generate a CRS, using a multi-string model where there are many CRSs and security only relies on a majority being honestly generated, and subversion resistant CRS where zero-knowledge holds even against a maliciously generated CRS.
    #+end_quote
+** zk-SNARK                                                          :ATTACH:
+   :PROPERTIES:
+   :ID:       6ca3acda-cbe3-4681-bc35-df69b09fbe6e
+   :END:
+   - zero knowledge Succinct Non-interactive ARgument of Knowledge
+   - ZCash是最早广泛应用zk-SNARK的数字货币。
+   - ZCash继承了比特币的交易模型，只不过UTXO被衍生出的新概念“note”所代替，后者是ZCash的基本交易单元。不过，翻译成“支票”更贴切，因为每张note上都标注了只有谁才能兑现它（即所有者）。一个交易的输入和输出都是若干note。为描述方便起见，将note记为“note=(PK, v, r)”，其中，PK是所有者的公钥（地址），v是金额，而r是可以唯一区分该note的序列号。
+   - ZCash交易分为两类：透明地址和隐藏地址。透明地址交易的输入、输出直接是可见的note信息（除了货币单位外，和比特币交易一模一样）。对于隐藏地址交易，输入和/或输出的地址和金额是隐藏的。透明地址和隐藏地址还可以混用。
+   - 在隐藏地址的交易中，输入、输出不再是明文的note，而分别是note的废止通知和签发通知。
+     + 签发通知（note commitment）：作为交易的输出，表示一张新note被签发。一个有效的commitment是一张note存在的证明，然而从它包含的信息中并不知道是哪张note，也就无法知道所有者是谁，金额多少。为满足这一点，最简单的方法是对note的描述信息取哈希，因此note对应的commitment可以简单描述为“HASH(note)”；
+     + 废止通知（note nullifier）：作为交易的输入，表示一张老支票将作废（因为马上要被兑现、花掉了）。同比特币一样，一个交易的输入一定是另一个交易的输出，因此nullifier对应唯一一个commitment（结合commitment的定义，也就唯一对应一张note)，但从它包含的信息并不能推导出是哪个commitment（如果可以的话，ZCash交易便可被追踪，因而丧失隐私性了）。为构造满足要求的nullifier，取哈希依然是个好办法，因此序号为r的note，对应的nullifier可描述为“HASH(r)”。
+   - 对于NP问题，验证它的解是否正确是“可行的”；而对于P问题，更进一步，求出它的解也是可行的。验证和求解的不对称性是密码学应用的基础。
