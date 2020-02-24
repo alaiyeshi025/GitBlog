@@ -60,3 +60,4 @@
   C-j 这样可以避免中文名输入的麻烦，以及有的时候（例如treemacs）会混淆文件和文件夹了。
 * EAF 在 vnc4server 中有问题
   vnc4server 似乎对 Xorg 支持不好，运行不起来。改为 TigerVNC 后，问题解决……
+  [[file:img/screenshot.png]]
