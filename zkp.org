@@ -12,7 +12,6 @@
 * 文摘
 ** ZKProof Community Reference
    https://zkproof.org/
-   #+begin_quote
 1. ZKP systems involve at least two parties: a prover and a verifier. The goal of the prover is to convince the verifier that a statement is true, without revealing any additional information.
 
 2. A ZKP system can be described with three components: setup, prove, verify. The setup, which can be implemented with various techniques, determines the initial state of the prover and the verifier, including private and common elements. The prove and verify components are the algorithms followed by the prover and verifier, respectively, possibly in an interactive manner. These algorithms are defined so as to ensure three main security requirements: completeness, soundness, and zero-knowledge.
@@ -25,10 +24,17 @@
 
 6. The theory of ZKPs distinguishes between proofs and arguments, as related to the computational power of the prover and verifier. Proofs need to be sound even against computationally unbounded provers, whereas arguments only need to preserve soundness against computationally bounded provers (often defined as probabilistic polynomial time algorithms). For simplicity, “proof” is used hereafter to designate both proofs and arguments, although there are theoretical circumstances where the distinction can be relevant.
 
-7. In the traditional notion of zero-knowledge, a ZKP system prevents the verifier from even being able to convincingly advertise having interacted in a legitimate proof execution. In other words, the verifier cannot transfer onto others the confidence gained about the proven statement. This property is sometimes called deniability or non-transferability, since a prover that has interacted as a legitimate prover in a proof is later able to plausibly deny having done so, even if the original verifier releases the transcript publicly. Transferability means that the verifier in a legitimate proof execution becomes able to convince an external party that the corresponding statement is true.
+7. A statement is either a membership claim of the form x ∈ L, or a knowledge claim of the form "In the scope of relation R, I know a witness for instance x". there are scenarios where a statement of knowledge cannot be converted into a statement of membership, and vice-versa.
 
-8. There are several proposals to reduce the trust in the setup such as using secure multi-party computation to generate a CRS, using a multi-string model where there are many CRSs and security only relies on a majority being honestly generated, and subversion resistant CRS where zero-knowledge holds even against a maliciously generated CRS.
-   #+end_quote
+8. The relation R can for instance be specified as a program (e.g. in C or Java), which given inputs x and w decides to accept, meaning (x,w) ∈ R, or reject, meaning w is not a witness to x ∈ L. In the academic literature, relations are often specified either as random access memory (RAM) programs or through Boolean and arithmetic circuits, described below.
+
+9. A rank-1 constraint system (R1CS) is a system of equations represented by a list of triplets ($\vec{a}$,$\vec{b}$,$\vec{c}$) of vectors of elements of some field. Each triplet defines a ¡°constraint¡± as an equation of the form (A) ・ (B) - (C) = 0. Each of the three elements (A), (B), (C) in such equation is a linear combination (e.g., (C) = c1・s1 + c2 ・ s2 + ...) of variables si of the so called solution $\vec{s}$ vector.
+
+10. A R1CS does not produce an output from an input (as for example a circuit does), but can be used to verify the correctness of a computation (e.g., performed by circuits with logic and/or arithmetic gates). The R1CS checks that the output variables (commonly known by both prover and verifier) are consistent with all other variables (possibly known only by the prover) in the solution vector. R1CS is only an intermediate representation, since the actual use in a ZKP system requires subsequent formulations (e.g., into a QAP) to enable verification without revealing the secret variables.
+
+11. In the traditional notion of zero-knowledge, a ZKP system prevents the verifier from even being able to convincingly advertise having interacted in a legitimate proof execution. In other words, the verifier cannot transfer onto others the confidence gained about the proven statement. This property is sometimes called deniability or non-transferability, since a prover that has interacted as a legitimate prover in a proof is later able to plausibly deny having done so, even if the original verifier releases the transcript publicly. Transferability means that the verifier in a legitimate proof execution becomes able to convince an external party that the corresponding statement is true.
+
+12. There are several proposals to reduce the trust in the setup such as using secure multi-party computation to generate a CRS, using a multi-string model where there are many CRSs and security only relies on a majority being honestly generated, and subversion resistant CRS where zero-knowledge holds even against a maliciously generated CRS.
 ** zk-SNARK                                                          :ATTACH:
    :PROPERTIES:
    :ID:       6ca3acda-cbe3-4681-bc35-df69b09fbe6e
