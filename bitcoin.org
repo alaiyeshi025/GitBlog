@@ -10,3 +10,4 @@
     1. 一个比特币交易（Transaction）接受若干输入（Transaction Input, TI），同时产生若干输出（Transaction Output, TO）；
     2. TI和TO是相对一个特定交易而言的，因为一个交易的TO可能成为另一个交易的TI，这是一个将挣来的钱再花出去的过程；在还没花出去前，这些钱就是“Unspent”的，因此此刻尚未成为下一个交易TI的TO称为“UXTO(Unspent Transaction Output)”。UXTO是比特币交易的基本单元；
     3. 交易的付款方需证明自己有权使用这些UTXO，方法是提供私钥进行验证，因为每个交易TO会指定收款人的公钥，保证只有收款人才能接着花它。
+       
