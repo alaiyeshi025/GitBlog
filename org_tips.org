@@ -1,5 +1,6 @@
 * 目录                                                                  :TOC:
 - [[#为-gitblog-定制的org-capture-寻址函数][为 GitBlog 定制的org-capture 寻址函数]]
+- [[#更改latex预览大小][更改LaTeX预览大小]]
 
 * 为 GitBlog 定制的org-capture 寻址函数
   #+begin_src emacs-lisp
@@ -13,3 +14,5 @@
             (save-buffer))))
   #+end_src
   如果存在同名Heading，则作为子节点插入，否则在文末新建Heading。
+* 更改LaTeX预览大小
+  You can customize the variables org-format-latex-options and org-format-latex-header to influence some aspects of the preview. In particular, the :scale (and for HTML export, :html-scale) property of the former can be used to adjust the size of the preview images.
