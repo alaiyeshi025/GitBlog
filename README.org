@@ -19,6 +19,7 @@
 - [[#books][Books]]
   - [[#sicp][SICP]]
   - [[#佛学研究十八篇][佛学研究十八篇]]
+  - [[#金刚经讲义][金刚经讲义]]
 - [[#linux][Linux]]
   - [[#linux-general][Linux general]]
 - [[#python][Python]]
@@ -47,6 +48,7 @@
 * Books
 ** [[file:sicp.org][SICP]]
 ** [[file:佛学研究十八篇.org][佛学研究十八篇]]
+** [[file:金刚经讲义.org][金刚经讲义]]
 * Linux
 ** [[file:linux_general.org][Linux general]]
 
