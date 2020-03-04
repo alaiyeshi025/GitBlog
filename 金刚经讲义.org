@@ -1,4 +1,4 @@
-* 目录                                                                  :TOC:
+* 目录                                                         :noexport:TOC:
 - [[#说般若纲要][说般若纲要]]
 - [[#五重释题][五重释题]]
 - [[#文义][文义]]
@@ -27,3 +27,8 @@
     - 三衣，总名袈裟，加沙者杂也
 ** 正宗分
 ** 流通分
+
+
+* OPTIONS                                                          :noexport:
+  #+OPTIONS: toc:nil
+  #+LATEX_HEADER: \usepackage{xeCJK}

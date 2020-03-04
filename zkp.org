@@ -1,4 +1,4 @@
-* 目录                                                                  :TOC:
+* 目录                                                         :noexport:TOC:
 - [[#参考材料][参考材料]]
 - [[#文摘][文摘]]
   - [[#zkproof-community-reference][ZKProof Community Reference]]
@@ -54,3 +54,8 @@
    - a Rank 1 Constraint System, or R1CS, to check that the values are ¡°traveling correctly¡±.
    - In this R1CS representation, the verifier has to check many constraints ¡ª one for almost every wire of the circuit. (For technical reasons, it turns out we only have a constraint for wires coming out of multiplication gates.) In a 2012 paper on the topic, Gennaro, Gentry, Parno and Raykova presented a nice way to ¡°bundle all these constraints into one¡±. This method uses a representation of the circuit called a Quadratic Arithmetic Program (QAP). The single constraint that needs to be checked is now between polynomials rather than between numbers. The polynomials can be quite large, but this is alright because when an identity does not hold between polynomials, it will fail to hold at most points. Therefore, you only have to check that the two polynomials match at one randomly chosen point in order to correctly verify the proof with high probability.
    - If the prover knew in advance which point the verifier would choose to check, they might be able to craft polynomials that are invalid, but still satisfy the identity at that point. With zk-SNARKs, sophisticated mathematical techniques such as homomorphic encryption and pairings of elliptic curves are used to evaluate polynomials ¡°blindly¡± ¨C i.e. without knowing which point is being evaluated. The public parameters described above are used to determine which point will be checked, but in encrypted form so that neither the prover nor the verifier know what it is.
+
+
+* OPTIONS                                                          :noexport:
+  #+OPTIONS: toc:nil
+  #+LATEX_HEADER: \usepackage{xeCJK}
