@@ -1,6 +1,8 @@
 * 目录                                                                  :TOC:
 - [[#为-gitblog-定制的org-capture-寻址函数][为 GitBlog 定制的org-capture 寻址函数]]
 - [[#更改latex预览大小][更改LaTeX预览大小]]
+- [[#中文pdf导出][中文PDF导出]]
+- [[#快速插入特殊环境][快速插入特殊环境]]
 
 * 为 GitBlog 定制的org-capture 寻址函数
   #+begin_src emacs-lisp
@@ -16,3 +18,21 @@
   如果存在同名Heading，则作为子节点插入，否则在文末新建Heading。
 * 更改LaTeX预览大小
   You can customize the variables org-format-latex-options and org-format-latex-header to influence some aspects of the preview. In particular, the :scale (and for HTML export, :html-scale) property of the former can be used to adjust the size of the preview images.
+* 中文PDF导出
+  1. init.el 中设置：
+    #+begin_src emacs-lisp
+        (setq org-latex-pdf-process '("xelatex -interaction nonstopmode -output-directory %o %f"))
+    #+end_src
+  2. 在待导出的org文件加入：
+    #+begin_src org
+        #+LATEX_HEADER: \usepackage{xeCJK}
+    #+end_src
+  3. 如果不需要目录：
+     #+begin_src org
+       #+OPTIONS: toc:nil
+     #+end_src
+  4. 对于不需要导出的heading,加上noexport标签。
+* 快速插入特殊环境
+  - <s <TAB> begin_src
+  - <q <TAB> begin_quote
+  - ……
