@@ -24,6 +24,8 @@
   - [[#linux-general][Linux general]]
 - [[#python][Python]]
   - [[#anaconda][Anaconda]]
+- [[#programming][Programming]]
+  - [[#haskell][Haskell]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -54,3 +56,6 @@
 
 * Python
 ** [[file:anaconda.org][Anaconda]]
+
+* Programming
+** [[file:haskell.org][Haskell]]
