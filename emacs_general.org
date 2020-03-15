@@ -8,6 +8,7 @@
 - [[#emacs输入utf8特殊字符快捷键][Emacs输入utf8特殊字符快捷键]]
 - [[#去除-buffer-中各种-whitespace-问题][去除 buffer 中各种 whitespace 问题]]
 - [[#emacs-dashboard同treemacs整合][Emacs dashboard同treemacs整合]]
+- [[#emacs-dashboard的project不显示所有projectile-bookmarkseld中的项目][Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -79,4 +80,8 @@
                   (interactive "x") ;;由于projectile-remove-known-project必须interactively called，project是一个struct类型，故code letter用"x"。另，treemacs-project->path 返回的path路径没有用缩写，最后也不带"/"，故需要转换。
                   (projectile-remove-known-project
                    (file-name-as-directory (abbreviate-file-name (treemacs-project->path project))))))
+  #+end_src
+* Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目
+  #+begin_src emacs-lisp
+    (setq projectile-current-project-on-switch 'keep)
   #+end_src
