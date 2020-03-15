@@ -7,6 +7,7 @@
 - [[#eaf-在-vnc4server-中有问题][EAF 在 vnc4server 中有问题]]
 - [[#emacs输入utf8特殊字符快捷键][Emacs输入utf8特殊字符快捷键]]
 - [[#去除-buffer-中各种-whitespace-问题][去除 buffer 中各种 whitespace 问题]]
+- [[#emacs-dashboard同treemacs整合][Emacs dashboard同treemacs整合]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -67,3 +68,15 @@
 * 去除 buffer 中各种 whitespace 问题
   M-x whitespace-cleanup
   whitespace 的自动清理会和 auto-save 冲突，且 cleanup 动作不需要频繁进行。故手动执行。
+* Emacs dashboard同treemacs整合
+  Treemacs的know projects cache文件和projectile不同，而dashboard默认是读projectile的。因而增加相关hook：
+  #+begin_src emacs-lisp
+    (add-hook 'treemacs-create-project-functions
+              #'(lambda (project) (projectile-add-known-project (treemacs-project->path project))))
+
+    (add-hook 'treemacs-delete-project-functions
+              #'(lambda (project)
+                  (interactive "x") ;;由于projectile-remove-known-project必须interactively called，project是一个struct类型，故code letter用"x"。另，treemacs-project->path 返回的path路径没有用缩写，最后也不带"/"，故需要转换。
+                  (projectile-remove-known-project
+                   (file-name-as-directory (abbreviate-file-name (treemacs-project->path project))))))
+  #+end_src
