@@ -9,6 +9,7 @@
 - [[#去除-buffer-中各种-whitespace-问题][去除 buffer 中各种 whitespace 问题]]
 - [[#emacs-dashboard同treemacs整合][Emacs dashboard同treemacs整合]]
 - [[#emacs-dashboard的project不显示所有projectile-bookmarkseld中的项目][Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目]]
+- [[#emacs-dashboard加入gnus新邮件列表][Emacs dashboard加入Gnus新邮件列表]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -84,4 +85,20 @@
 * Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目
   #+begin_src emacs-lisp
     (setq projectile-current-project-on-switch 'keep)
+  #+end_src
+* Emacs dashboard加入Gnus新邮件列表
+  #+begin_src emacs-lisp
+    (defun dashboard-insert-gnus (list-size)
+      (let ((group-article (get-new-mail)))
+        (dashboard-insert-section
+         "New Mails"
+         group-article
+         list-size
+         "r"
+         `(lambda (&rest ignore)
+            (gnus-fetch-group (car ',el) (list (cadr ',el))))
+         (format "[%s] %s - %s" (car el) (caddr el) (cadddr el)))))
+
+    (add-to-list 'dashboard-item-generators  '(gnus . dashboard-insert-gnus))
+    (add-to-list 'dashboard-items '(gnus) t)
   #+end_src
