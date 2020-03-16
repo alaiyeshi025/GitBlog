@@ -11,6 +11,7 @@
 - [[#emacs-dashboard的project不显示所有projectile-bookmarkseld中的项目][Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目]]
 - [[#emacs-dashboard加入gnus新邮件列表][Emacs dashboard加入Gnus新邮件列表]]
 - [[#使用prefix-argument实现多个color-rg方法的选择][使用prefix argument实现多个color-rg方法的选择]]
+- [[#dired批量文件处理][Dired批量文件处理]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -139,3 +140,5 @@
     (global-set-key (kbd "C-c C-s") 'color-rg-symbol-choose)
     (global-set-key (kbd "C-s") 'color-rg-input-choose)
   #+end_src
+* Dired批量文件处理
+  dired-toggle-read-only 可以将dired buffer转换为可编辑模式，这样的话，dired列出的文件名就可以当做文本来操作了，一些场景如批量重命名等就很方便的可以实现
