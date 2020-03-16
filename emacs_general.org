@@ -10,6 +10,7 @@
 - [[#emacs-dashboard同treemacs整合][Emacs dashboard同treemacs整合]]
 - [[#emacs-dashboard的project不显示所有projectile-bookmarkseld中的项目][Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目]]
 - [[#emacs-dashboard加入gnus新邮件列表][Emacs dashboard加入Gnus新邮件列表]]
+- [[#使用prefix-argument实现多个color-rg方法的选择][使用prefix argument实现多个color-rg方法的选择]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -101,4 +102,40 @@
 
     (add-to-list 'dashboard-item-generators  '(gnus . dashboard-insert-gnus))
     (add-to-list 'dashboard-items '(gnus) t)
+  #+end_src
+* 使用prefix argument实现多个color-rg方法的选择
+  从ace-jump里面学到的:)
+  #+begin_src emacs-lisp
+    (defvar color-rg-input-submode-list
+      '(color-rg-search-input-in-current-file
+        color-rg-search-input
+        color-rg-search-input-in-project))
+
+    (defvar color-rg-symbol-submode-list
+      '(color-rg-search-symbol-in-current-file
+        color-rg-search-symbol
+        color-rg-search-symbol-in-project))
+
+    (defun color-rg-input-choose (&optional prefix)
+      (interactive "p")
+      (let ((index (/ prefix 4))
+            (submode-list-length (length color-rg-input-submode-list)))
+        (if (< index 0)
+            (error "[color-rg] Invalid prefix command"))
+        (if (>= index submode-list-length)
+            (setq index (1- submode-list-length)))
+        (call-interactively (nth index color-rg-input-submode-list))))
+
+    (defun color-rg-symbol-choose (&optional prefix)
+      (interactive "p")
+      (let ((index (/ prefix 4))
+            (submode-list-length (length color-rg-symbol-submode-list)))
+        (if (< index 0)
+            (error "[color-rg] Invalid prefix command"))
+        (if (>= index submode-list-length)
+            (setq index (1- submode-list-length)))
+        (call-interactively (nth index color-rg-symbol-submode-list))))
+
+    (global-set-key (kbd "C-c C-s") 'color-rg-symbol-choose)
+    (global-set-key (kbd "C-s") 'color-rg-input-choose)
   #+end_src
