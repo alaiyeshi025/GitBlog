@@ -7,7 +7,7 @@
 - [[#如何在ubuntu-1804上安装和配置vnc][如何在Ubuntu 18.04上安装和配置VNC]]
 - [[#git-unpacking-objects-卡住][git unpacking objects 卡住]]
 - [[#hyper-v-ubuntu-1804-分辨率修改][Hyper-v Ubuntu 18.04 分辨率修改]]
-- [[#拉取部分git文件][拉取部分git文件]]
+- [[#拉取部分github文件][拉取部分github文件]]
 
 * 如何解压 tar.xz 文件
   #+begin_src shell
@@ -62,11 +62,7 @@
   - sudo vim /etc/default/grub
   - GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:1920x1080"
   - sudo update-grub
-* 拉取部分git文件
+* 拉取部分github文件
   #+begin_src shell
-    git init
-    git remote add origin https://github.com/norvig/paip-lisp.git
-    git config core.sparsecheckout true
-    echo "lisp" >> .git/info/sparse-checkout
-    git pull origin master
+    svn export <repository>/trunk/<dir>
   #+end_src
