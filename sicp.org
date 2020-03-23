@@ -1,5 +1,6 @@
 * 目录                                                                  :TOC:
 - [[#supporting-functions-for-281-and-282-exercises][Supporting functions for 2.81 and 2.82 exercises]]
+- [[#cons-stream实现][cons-stream实现]]
 
 * Supporting functions for 2.81 and 2.82 exercises
   #+begin_src scheme
@@ -30,4 +31,17 @@
     (install-rational-package)
     (install-rectangular-package)
     (install-polar-package)
+  #+end_src
+* cons-stream实现
+  cons-stream needs to be a macro in order to work correctly. Otherwise the invocation of cons-stream will evaluate all its arguments eagerly.
+
+  #+begin_src scheme
+    ;;define cons-stream as function
+    (define (cons-stream a b) (cons a (mem-proc (lambda () b))))
+
+    ;;define cons-stream as macro
+    (define-syntax cons-stream
+      (syntax-rules ()
+        ((cons-stream a b)
+         (cons a (memo-func (lambda () b))))))
   #+end_src
