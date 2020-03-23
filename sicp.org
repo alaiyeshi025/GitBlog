@@ -1,6 +1,7 @@
 * 目录                                                                  :TOC:
 - [[#supporting-functions-for-281-and-282-exercises][Supporting functions for 2.81 and 2.82 exercises]]
 - [[#cons-stream实现][cons-stream实现]]
+- [[#exercise-370-merge-weighted-实现的注意事项][Exercise 3.70 merge-weighted 实现的注意事项]]
 
 * Supporting functions for 2.81 and 2.82 exercises
   #+begin_src scheme
@@ -44,4 +45,26 @@
       (syntax-rules ()
         ((cons-stream a b)
          (cons a (memo-func (lambda () b))))))
+  #+end_src
+* Exercise 3.70 merge-weighted 实现的注意事项
+  在权重相等时需要把相等权重的pair都加到结果stream中
+  #+begin_src scheme
+    (define (merge-weighted s1 s2 weight)
+      (cond ((stream-null? s1) s2)
+            ((stream-null? s2) s1)
+            (else
+             (let ((s1car (stream-car s1))
+                   (s2car (stream-car s2)))
+               (cond ((< (weight s1car) (weight s2car))
+                      (cons-stream
+                       s1car
+                       (merge-weighted (stream-cdr s1) s2 weight)))
+                     ((> (weight s1car) (weight s2car))
+                      (cons-stream
+                       s2car
+                       (merge-weighted s1 (stream-cdr s2) weight)))
+                     (else
+                      (cons-stream
+                       s1car
+                       (merge-weighted (stream-cdr s1) s2 weight)))))))) ;; should include (stream-car s2)
   #+end_src
