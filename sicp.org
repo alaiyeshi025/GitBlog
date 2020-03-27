@@ -2,6 +2,7 @@
 - [[#supporting-functions-for-281-and-282-exercises][Supporting functions for 2.81 and 2.82 exercises]]
 - [[#cons-stream实现][cons-stream实现]]
 - [[#exercise-370-merge-weighted-实现的注意事项][Exercise 3.70 merge-weighted 实现的注意事项]]
+- [[#377和378循环定义问题][3.77和3.78循环定义问题]]
 
 * Supporting functions for 2.81 and 2.82 exercises
   #+begin_src scheme
@@ -67,4 +68,19 @@
                       (cons-stream
                        s1car
                        (merge-weighted (stream-cdr s1) s2 weight)))))))) ;; should include (stream-car s2)
+  #+end_src
+* 3.77和3.78循环定义问题
+  可以把值定义，改为无参数函数定义，但性能很差。另，letrec 似乎也不支持循环值定义（R5）
+  #+begin_src scheme
+    (define (solve f y0 dt)
+      (define (y) (integral-delayed (delayed (dy)) y0 dt))
+      (define (dy) (stream-mapping f (y)))
+      (y))
+  #+end_src
+
+  在Haskell中，由于lazy evaluation的缘故，似乎实现起来更自然，性能也好：
+  #+begin_src haskell
+    solve f y0 dt = y
+        where y = integralDelayed dy y0 dt
+              dy = map f y
   #+end_src
