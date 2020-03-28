@@ -3,7 +3,6 @@
 - [[#cons-stream实现][cons-stream实现]]
 - [[#exercise-370-merge-weighted-实现的注意事项][Exercise 3.70 merge-weighted 实现的注意事项]]
 - [[#377和378循环定义问题][3.77和3.78循环定义问题]]
-- [[#表格测试][表格测试]]
 
 * Supporting functions for 2.81 and 2.82 exercises
   #+begin_src scheme
@@ -85,6 +84,3 @@
         where y = integralDelayed dy y0 dt
               dy = map f y
   #+end_src
-* 表格测试
-  | a        | b | c |
-  | 测试一下 | 英文对其 |   |

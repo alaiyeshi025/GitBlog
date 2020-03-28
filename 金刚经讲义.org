@@ -66,8 +66,8 @@
     6. 般若
        - 性体上发生之正智
        - 对治愚痴
-** 流通分
 
+** 流通分
 
 * OPTIONS                                                          :noexport:
   #+OPTIONS: toc:nil
