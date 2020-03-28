@@ -22,10 +22,9 @@
   - [[#金刚经讲义][金刚经讲义]]
 - [[#linux][Linux]]
   - [[#linux-general][Linux general]]
-- [[#python][Python]]
-  - [[#anaconda][Anaconda]]
 - [[#programming][Programming]]
   - [[#haskell][Haskell]]
+  - [[#python][Python]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -54,8 +53,6 @@
 * Linux
 ** [[file:linux_general.org][Linux general]]
 
-* Python
-** [[file:anaconda.org][Anaconda]]
-
 * Programming
 ** [[file:haskell.org][Haskell]]
+** [[file:python.org][Python]]
