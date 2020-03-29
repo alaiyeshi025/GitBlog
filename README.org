@@ -25,6 +25,7 @@
 - [[#programming][Programming]]
   - [[#haskell][Haskell]]
   - [[#python][Python]]
+  - [[#c][C++]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -56,3 +57,4 @@
 * Programming
 ** [[file:haskell.org][Haskell]]
 ** [[file:python.org][Python]]
+** [[file:cpp.org][C++]]
