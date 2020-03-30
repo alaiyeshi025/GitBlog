@@ -13,6 +13,7 @@
 - [[#使用prefix-argument实现多个color-rg方法的选择][使用prefix argument实现多个color-rg方法的选择]]
 - [[#dired批量文件处理][Dired批量文件处理]]
 - [[#org-mode表格对齐问题][Org mode表格对齐问题]]
+- [[#nox-中关闭haskell-ide-engine-的-completionsnippetson][NOX 中关闭Haskell Ide Engine 的 completionSnippetsOn]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -147,3 +148,17 @@
   两种方案：
   1. cnfonts, 通过修改和适配英文字体高度和中文字体高度，使得中文宽度为英文的两倍。缺点在于中文字体的高度会高于英文字体。
   2. 更纱黑体。这个字体是中文英文等高且宽度比例2:1的。缺点是英文字体看起来不如Dejavu Sans Mono等“舒展”。字体名“等距更纱黑体 SC”。
+* NOX 中关闭Haskell Ide Engine 的 completionSnippetsOn
+  #+begin_src emacs-lisp
+    (add-to-list 'nox-server-programs '((haskell-mode) . (nox-hie "hie-wrapper" "--lsp")))
+
+    (defclass nox-hie (nox-lsp-server) () :documentation "A custom class for HIE.")
+
+    (cl-defmethod nox-initialization-options ((server nox-hie))
+      (list :languageServerHaskell (list :completionSnippetsOn :json-false)))
+  #+end_src
+  HIE默认是开启的，这样的话，每次在做自定义函数名补全的时候，都会带上Snippets place holder。非常烦人。如：
+  #+begin_src haskell
+    oddPlusOne :: Odd n -> Even (S n)
+    oddPlusOne ${1:Odd n} --当补全oddPlusOne时，后面的占位符就会出来
+  #+end_src
