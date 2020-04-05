@@ -1,0 +1,30 @@
+* 目录                                                                  :TOC:
+- [[#安装和基本配置][安装和基本配置]]
+- [[#cargo相关][cargo相关]]
+  - [[#cargotoml][Cargo.toml]]
+  - [[#cargolock][Cargo.lock]]
+
+* 安装和基本配置
+  #+begin_src bash
+    curl https://sh.rustup.rs -sSf | sh #安装rustup
+
+    rustup doc #文档和The Book
+
+    #~/.profile rustup更换国内镜像
+    export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static 
+    export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup 
+
+    #~/.cargo/config crates-io国内镜像
+    [source.crates-io]                                                                                                                  
+    registry = "https://github.com/rust-lang/crates.io-index"
+    replace-with = 'ustc'
+    [source.ustc]
+    registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+  #+end_src
+* cargo相关
+** Cargo.toml
+   Cargo’s use of external crates is where it really shines. Before we can write code that uses rand, we need to modify the Cargo.toml file to include the rand crate as a dependency. Open that file now and add the following line to the bottom beneath the [dependencies] section header that Cargo created for you
+   In the Cargo.toml file, everything that follows a header is part of a section that continues until another section starts. The [dependencies] section is where you tell Cargo which external crates your project depends on and which versions of those crates you require. In this case, we’ll specify the rand crate with the semantic version specifier 0.5.5. Cargo understands Semantic Versioning (sometimes called SemVer), which is a standard for writing version numbers. The number 0.5.5 is actually shorthand for ^0.5.5, which means “any version that has a public API compatible with version 0.5.5.”
+** Cargo.lock
+  the Cargo.lock file, which was created the first time you ran cargo build.When you build a project for the first time, Cargo figures out all the versions of the dependencies that fit the criteria and then writes them to the Cargo.lock file. When you build your project in the future, Cargo will see that the Cargo.lock file exists and use the versions specified there rather than doing all the work of figuring out versions again. This lets you have a reproducible build automatically.
+  When you do want to update a crate, Cargo provides another command, update, which will ignore the Cargo.lock file and figure out all the latest versions that fit your specifications in Cargo.toml. If that works, Cargo will write those versions to the Cargo.lock file.

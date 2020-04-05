@@ -26,6 +26,7 @@
   - [[#haskell][Haskell]]
   - [[#python][Python]]
   - [[#c][C++]]
+  - [[#rust][Rust]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -58,3 +59,4 @@
 ** [[file:haskell.org][Haskell]]
 ** [[file:python.org][Python]]
 ** [[file:cpp.org][C++]]
+** [[file:rust.org][Rust]]
