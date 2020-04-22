@@ -164,6 +164,11 @@
     oddPlusOne ${1:Odd n} --当补全oddPlusOne时，后面的占位符就会出来
   #+end_src
 * 避免Geiser hang
+  #+begin_quote
+  It is possible for Geiser to hang your Emacs process when trying to complete symbols. This can happen in the REPL itself or even in a Scheme buffer that is attached to the REPL process. If this happens, you¡¯ve probably entered a module that changes the REPL prompt from what Geiser was expecting to see.
+
+  Unfortunately, there¡¯s no general solution for this issue right now (as it is a daunting task to try to make a regexp that can encompass all possible REPL prompts). The best solution for now is to fix this issue on a case-by-case basis by adjusting your prompt regexp variable so that it matches the default prompt as well as your Scheme module¡¯s special prompt.
+  #+end_quote
   #+begin_src emacs-lisp
     (eval-after-load 'geiser-chez
       '(progn
