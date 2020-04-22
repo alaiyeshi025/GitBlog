@@ -14,6 +14,7 @@
 - [[#dired批量文件处理][Dired批量文件处理]]
 - [[#org-mode表格对齐问题][Org mode表格对齐问题]]
 - [[#nox-中关闭haskell-ide-engine-的-completionsnippetson][NOX 中关闭Haskell Ide Engine 的 completionSnippetsOn]]
+- [[#避免geiser-hang][避免Geiser hang]]
 
 * 异步执行
   #+begin_src emacs-lisp
@@ -161,4 +162,11 @@
   #+begin_src haskell
     oddPlusOne :: Odd n -> Even (S n)
     oddPlusOne ${1:Odd n} --当补全oddPlusOne时，后面的占位符就会出来
+  #+end_src
+* 避免Geiser hang
+  #+begin_src emacs-lisp
+    (eval-after-load 'geiser-chez
+      '(progn
+         (setq geiser-active-implementations '(chez))
+         (setq geiser-chez--prompt-regexp "debug> \\|> \\|.*: ")))
   #+end_src
