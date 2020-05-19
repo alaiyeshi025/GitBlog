@@ -27,6 +27,7 @@
   - [[#python][Python]]
   - [[#c][C++]]
   - [[#rust][Rust]]
+  - [[#sqlite][Sqlite]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -60,3 +61,4 @@
 ** [[file:python.org][Python]]
 ** [[file:cpp.org][C++]]
 ** [[file:rust.org][Rust]]
+** [[file:sqlite.org][Sqlite]]
