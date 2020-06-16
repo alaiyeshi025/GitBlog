@@ -59,3 +59,4 @@
 * OPTIONS                                                          :noexport:
   #+OPTIONS: toc:nil
   #+LATEX_HEADER: \usepackage{xeCJK}
+  #+title: ZKP 文摘

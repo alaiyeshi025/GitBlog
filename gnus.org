@@ -7,3 +7,5 @@
   - 加密 authinfo 文件 gpg --encrypt .autinfo 得到 .authinfo.gpg 文件
   - 参考 [[file:linux_general.org]] 中 "Fixing GPG 'Inappropriate ioctl for device' errors" 一节
   - shell profile 文件中加入： export GPG_TTY=$(tty)
+* Options                                                          :noexport:
+  #+title: Gnus

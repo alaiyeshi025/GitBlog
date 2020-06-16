@@ -84,3 +84,6 @@
         where y = integralDelayed dy y0 dt
               dy = map f y
   #+end_src
+* Options                                                          :noexport:
+  #+title: SICP
+  #+roam_tags: 读书笔记

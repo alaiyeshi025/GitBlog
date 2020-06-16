@@ -175,3 +175,5 @@
          (setq geiser-active-implementations '(chez))
          (setq geiser-chez--prompt-regexp "debug> \\|> \\|.*: ")))
   #+end_src
+* Options                                                          :noexport:
+  #+title: Emacs General

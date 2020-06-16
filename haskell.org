@@ -6,3 +6,5 @@
   This process can be repeat indefinitely.
   For example you might replace `_` with `isoFunc _ _` So GHC hint you on more specific type. This is especially usefull if you have complex type.
   See https://wiki.haskell.org/GHC/Typed_holes And "stepwise refinement" for more details.
+* Options                                                          :noexport:
+  #+title: Haskell

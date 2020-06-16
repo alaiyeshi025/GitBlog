@@ -5,3 +5,5 @@
   - Private Asset Transfer (基于区块链) https://qed-it.com/privacy-on-blockchains/
   - Fraud Detection (类似保险核保核赔和多头投保case) https://qed-it.com/fraud-detection/
   - Collaborative KYC (类似黑名单共享case) https://qed-it.com/collaborative-kyc/
+* Options                                                          :noexport:
+  #+title: ZKP solutions
