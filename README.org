@@ -30,6 +30,7 @@
   - [[#sqlite][Sqlite]]
 - [[#mpc--homomorphic-encryption][MPC & Homomorphic Encryption]]
   - [[#homomorphic-encryption][Homomorphic Encryption]]
+  - [[#mpc][MPC]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -66,7 +67,7 @@
 ** [[file:sqlite.org][Sqlite]]
 * MPC & Homomorphic Encryption  
 ** [[file:HomomorphicEncryption.org][Homomorphic Encryption]]
-
+** [[file:mpc.org][MPC]]
 * Options                                                          :noexport:
   #+title: Index  
   

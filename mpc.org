@@ -1,0 +1,16 @@
+* 目录                                                                  :TOC:
+- [[#mpc基本概念][MPC基本概念]]
+  - [[#秘密分享][秘密分享]]
+
+* MPC基本概念
+  :PROPERTIES:
+  :ID:       26328995-0f6e-4237-a06a-748835d3210c
+  :END:
+** 秘密分享
+   :PROPERTIES:
+   :ID:       9ff1a071-1a13-49c6-8a61-b8b629380951
+   :END:
+
+* Options                                                          :noexport:
+  #+title: MPC
+  #+roam_tags: 隐私计算
