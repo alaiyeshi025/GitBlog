@@ -31,6 +31,7 @@
 - [[#mpc--homomorphic-encryption][MPC & Homomorphic Encryption]]
   - [[#homomorphic-encryption][Homomorphic Encryption]]
   - [[#mpc][MPC]]
+- [[#misc][Misc.]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -68,6 +69,7 @@
 * MPC & Homomorphic Encryption  
 ** [[file:HomomorphicEncryption.org][Homomorphic Encryption]]
 ** [[file:mpc.org][MPC]]
+* Misc.   
 * Options                                                          :noexport:
   #+title: Index  
   
