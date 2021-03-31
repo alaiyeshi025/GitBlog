@@ -11,6 +11,7 @@
   - [[#trustzone][Trustzone]]
   - [[#others][Others]]
 - [[#federated-learning][Federated Learning]]
+  - [[#fate][Fate]]
   - [[#general][General]]
 - [[#block-chain][Block Chain]]
   - [[#hyperledger][Hyperledger]]
@@ -32,6 +33,7 @@
   - [[#homomorphic-encryption][Homomorphic Encryption]]
   - [[#mpc][MPC]]
 - [[#misc][Misc.]]
+  - [[#战略][战略]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -40,15 +42,13 @@
 * ZKP
 ** [[file:zkp.org][Materials digest]]
 ** [[file:zkp_solutions.org][Possible solutions]]
-
 * TEE
 ** [[file:sgx.org][SGX]]
 ** [[file:trustzone.org][Trustzone]]
 ** [[file:other_tee.org][Others]]
-
 * Federated Learning
+** [[file:20210328230849-fate.org][Fate]]
 ** [[file:fl_general.org][General]]
-
 * Block Chain
 ** [[file:hyperledger.org][Hyperledger]]
 ** [[file:ethereum.org][Ethereum]]
@@ -59,7 +59,6 @@
 ** [[file:金刚经讲义.org][金刚经讲义]]
 * Linux
 ** [[file:linux_general.org][Linux general]]
-
 * Programming
 ** [[file:haskell.org][Haskell]]
 ** [[file:python.org][Python]]
@@ -70,6 +69,7 @@
 ** [[file:HomomorphicEncryption.org][Homomorphic Encryption]]
 ** [[file:mpc.org][MPC]]
 * Misc.   
+** [[file:20210329015248-strategy.org][战略]]
 * Options                                                          :noexport:
   #+title: Index  
   

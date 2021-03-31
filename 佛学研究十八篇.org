@@ -57,3 +57,5 @@
    - 总勘
 * Options                                                          :noexport:
   #+title: 佛学研究十八篇
+  #+roam_tags: 读书笔记
+
