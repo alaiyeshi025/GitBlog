@@ -34,6 +34,9 @@
   - [[#mpc][MPC]]
 - [[#misc][Misc.]]
   - [[#战略][战略]]
+- [[#行业][行业]]
+  - [[#车险业务核心思考][车险业务核心思考]]
+  - [[#保险指标][保险指标]]
 
 * Emacs
 ** [[file:org_tips.org][Org-mode]]
@@ -70,6 +73,9 @@
 ** [[file:mpc.org][MPC]]
 * Misc.   
 ** [[file:20210329015248-strategy.org][战略]]
+* 行业
+** [[file:20210408174629-车险业务核心思考.org][车险业务核心思考]]
+** [[file:20210408174310-保险指标.org][保险指标]]
 * Options                                                          :noexport:
   #+title: Index  
   
