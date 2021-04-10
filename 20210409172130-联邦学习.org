@@ -1,0 +1,7 @@
+#+title: 联邦学习
+#+roam_tags: 隐私计算
+#+roam_alias: FederatedLearning FL fl
+
+* 主要技术实现
+  - [[file:20210328230849-fate.org][微众银行FATE]]
+  - [[file:20210409174113-tensorflowfl.org][Tensorflow FL]]

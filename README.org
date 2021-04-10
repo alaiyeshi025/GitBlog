@@ -8,7 +8,7 @@
   - [[#possible-solutions][Possible solutions]]
 - [[#tee][TEE]]
   - [[#sgx][SGX]]
-  - [[#trustzone][Trustzone]]
+  - [[#trustzone][TrustZone]]
   - [[#others][Others]]
 - [[#federated-learning][Federated Learning]]
   - [[#fate][Fate]]
@@ -46,12 +46,12 @@
 ** [[file:zkp.org][Materials digest]]
 ** [[file:zkp_solutions.org][Possible solutions]]
 * TEE
-** [[file:sgx.org][SGX]]
-** [[file:trustzone.org][Trustzone]]
-** [[file:other_tee.org][Others]]
+** [[file:20210409173610-sgx.org][SGX]]
+** [[file:trustzone.org][TrustZone]]
+** [[file:20210409174916-othertee.org][Others]]
 * Federated Learning
 ** [[file:20210328230849-fate.org][Fate]]
-** [[file:fl_general.org][General]]
+** [[file:20210409172130-联邦学习.org][General]]
 * Block Chain
 ** [[file:hyperledger.org][Hyperledger]]
 ** [[file:ethereum.org][Ethereum]]

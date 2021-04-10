@@ -1,0 +1,10 @@
+#+title: 隐私计算
+#+roam_tags: 隐私计算
+
+* 当前包括
+  - [[file:20210409165356-tee.org][TEE]]
+  - [[file:20210409172130-联邦学习.org][联邦学习]]
+  - [[file:mpc.org][多方安全计算（MPC）]]
+  - [[file:20210409172347-zkp.org][零知识证明]]
+  - [[file:HomomorphicEncryption.org][同态加密]]
+  - [[file:20210409172623-差分隐私.org][差分隐私]]

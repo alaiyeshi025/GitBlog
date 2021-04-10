@@ -1,0 +1,3 @@
+#+title: zkp
+#+roam_tags: 区块链 隐私计算
+#+roam_alias: 零知识证明 ZKP

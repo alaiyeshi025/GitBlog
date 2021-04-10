@@ -1,0 +1,12 @@
+#+title: TEE
+#+roam_tags: 隐私计算 TEE
+#+roam_alias: tee 可信执行环境
+
+* 根据芯片类型主要分为
+  - [[file:20210409173610-sgx.org][Intel SGX]]
+  - [[file:trustzone.org][ARM TrustZone]]
+  - [[file:20210409174916-othertee.org][AMD]]
+* 软件层方案
+  - Graphene
+  - LibOS
+  - 微软（？）
