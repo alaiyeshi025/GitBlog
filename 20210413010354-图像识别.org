@@ -1,0 +1,3 @@
+#+title: 图像识别
+#+roam_tags: 算法 人工智能
+#+roam_alias: CV
