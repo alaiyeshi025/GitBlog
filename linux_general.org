@@ -8,6 +8,7 @@
 - [[#git-unpacking-objects-卡住][git unpacking objects 卡住]]
 - [[#hyper-v-ubuntu-1804-分辨率修改][Hyper-v Ubuntu 18.04 分辨率修改]]
 - [[#拉取部分github文件][拉取部分github文件]]
+- [[#替换git默认协议][替换git默认协议]]
 
 * 如何解压 tar.xz 文件
   #+begin_src shell
@@ -66,5 +67,8 @@
   #+begin_src shell
     svn export <repository>/trunk/<dir>
   #+end_src
+* 替换git默认协议
+  git config --global url."git://".insteadOf https://
+
 * Options                                                          :noexport:
   #+title: Linux General
