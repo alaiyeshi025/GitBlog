@@ -1,11 +1,14 @@
+:PROPERTIES:
+:ID:       7c862c02-29d9-4a41-ba9c-71725cab50f0
+:ROAM_ALIASES: 可信执行环境 tee
+:END:
 #+title: TEE
-#+roam_tags: 隐私计算 TEE
-#+roam_alias: tee 可信执行环境
+#+filetags: 隐私计算 TEE
 
 * 根据芯片类型主要分为
-  - [[file:20210409173610-sgx.org][Intel SGX]]
-  - [[file:trustzone.org][ARM TrustZone]]
-  - [[file:20210409174916-othertee.org][AMD]]
+  - [[id:e337f5fb-4d19-4ad5-be09-f42bdb4fcfa5][Intel SGX]]
+  - [[id:789a25d4-2d50-49c3-a943-018177bfec7e][ARM TrustZone]]
+  - [[id:21dd46c6-bbc8-4529-b704-2e9799dafd40][AMD]]
 * 软件层方案
   - Graphene
   - LibOS

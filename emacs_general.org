@@ -1,21 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#异步执行][异步执行]]
-- [[#installation-in-linux][Installation in Linux]]
-  - [[#configure][configure]]
-  - [[#作为-service-启动][作为 service 启动]]
-- [[#helm-补全当前条目][Helm 补全当前条目]]
-- [[#eaf-在-vnc4server-中有问题][EAF 在 vnc4server 中有问题]]
-- [[#emacs输入utf8特殊字符快捷键][Emacs输入utf8特殊字符快捷键]]
-- [[#去除-buffer-中各种-whitespace-问题][去除 buffer 中各种 whitespace 问题]]
-- [[#emacs-dashboard同treemacs整合][Emacs dashboard同treemacs整合]]
-- [[#emacs-dashboard的project不显示所有projectile-bookmarkseld中的项目][Emacs dashboard的project不显示所有projectile-bookmarks.eld中的项目]]
-- [[#emacs-dashboard加入gnus新邮件列表][Emacs dashboard加入Gnus新邮件列表]]
-- [[#使用prefix-argument实现多个color-rg方法的选择][使用prefix argument实现多个color-rg方法的选择]]
-- [[#dired批量文件处理][Dired批量文件处理]]
-- [[#org-mode表格对齐问题][Org mode表格对齐问题]]
-- [[#nox-中关闭haskell-ide-engine-的-completionsnippetson][NOX 中关闭Haskell Ide Engine 的 completionSnippetsOn]]
-- [[#避免geiser-hang][避免Geiser hang]]
-
 * 异步执行
   #+begin_src emacs-lisp
     (async-start-process NAME PROCESS FINISH-FUNC) ;;FINISH-FUNC 为回调函数 Emacs version 26.3

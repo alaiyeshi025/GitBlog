@@ -1,9 +1,7 @@
-* 目录                                                         :noexport:TOC:
-- [[#参考材料][参考材料]]
-- [[#文摘][文摘]]
-  - [[#zkproof-community-reference][ZKProof Community Reference]]
-  - [[#zk-snark][zk-SNARK]]
-
+:PROPERTIES:
+:ID:       5243ea64-3e08-4e7b-b5d3-124822960983
+:ROAM_ALIASES: 零知识证明 zkp
+:END:
 * 参考材料
   - https://zkp.science/ (白皮书比较有价值)
   - https://qed-it.com/2017-12-20-the-incredible-machine/ (浅显的例子)
@@ -60,5 +58,3 @@
   #+OPTIONS: toc:nil
   #+LATEX_HEADER: \usepackage{xeCJK}
   #+title: ZKP
-  #+roam_tags: ZKP 零知识证明
-  #+roam_alias: zkp 零知识证明

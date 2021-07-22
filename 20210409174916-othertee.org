@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       21dd46c6-bbc8-4529-b704-2e9799dafd40
+:END:
 #+title: OtherTEE
-#+roam_tags: TEE 隐私计算 可信执行环境
+#+filetags: TEE 隐私计算 可信执行环境

@@ -1,6 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#merkle-tree][Merkle Tree]]
-
 * Merkle Tree                                                        :ATTACH:
   :PROPERTIES:
   :ID:       ae181593-6ab8-4859-a5bd-824580967b83

@@ -1,6 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#操作系统查看main函数返回值][操作系统查看main函数返回值]]
-
 * 操作系统查看main函数返回值
   #+begin_src bash
     echo $?

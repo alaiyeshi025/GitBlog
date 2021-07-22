@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       8d4c6a1b-d3ed-4c49-b28b-0e1b379baf54
+:ROAM_ALIASES: fl FL FederatedLearning
+:END:
 #+title: 联邦学习
-#+roam_tags: 隐私计算
-#+roam_alias: FederatedLearning FL fl
+#+filetags: 隐私计算
 
 * 主要技术实现
-  - [[file:20210328230849-fate.org][微众银行FATE]]
-  - [[file:20210409174113-tensorflowfl.org][Tensorflow FL]]
+  - [[id:efdc7132-44ce-4b93-87be-c6c05c280323][微众银行FATE]]
+  - [[id:3d829039-3f30-4ed5-8ce9-a307ab74f15d][Tensorflow FL]]
 

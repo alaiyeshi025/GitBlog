@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       88d568fc-33bf-4767-b90b-a4c6d7650a7e
+:END:
 #+title: 供应链金融
-#+roam_tags: 供应链金融 产业互联网金融 中小微企业金融
+#+filetags: 供应链金融 产业互联网金融 中小微企业金融
 
 

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       916cbbe2-af53-4d35-a5dd-3ac2a086718e
+:END:
 #+title: 车险
-#+roam_tags: 保险 Insurance 车险
+#+filetags: 保险 Insurance 车险
 
-* 通过实现“定向客群”的高[[file:20210408174310-保险指标.org][忠诚度]]和“数据驱动”的低[[file:20210408174310-保险指标.org][赔付率]]，形成“[[file:20210408173408-flywheel.org][飞轮效应]]”
+* 通过实现“定向客群”的高[[id:a74912a8-c8c6-44de-84d5-eb708587ea0a][忠诚度]]和“数据驱动”的低[[id:a74912a8-c8c6-44de-84d5-eb708587ea0a][赔付率]]，形成“[[id:7a2baac8-0b2d-425f-b361-917f246a7d0e][飞轮效应]]”
 

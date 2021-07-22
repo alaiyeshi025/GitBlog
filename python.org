@@ -1,6 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#anaconda清理无用缓存][Anaconda清理无用缓存]]
-
 * Anaconda清理无用缓存
   #+begin_src anaconda
     conda clean -p      //删除没有用的包

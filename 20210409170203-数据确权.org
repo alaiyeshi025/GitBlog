@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       73f29500-0c85-4a83-9ad8-40120634b930
+:END:
 #+title: 数据确权
 

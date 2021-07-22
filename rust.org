@@ -1,9 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#安装和基本配置][安装和基本配置]]
-- [[#cargo相关][cargo相关]]
-  - [[#cargotoml][Cargo.toml]]
-  - [[#cargolock][Cargo.lock]]
-
 * 安装和基本配置
   #+begin_src bash
     curl https://sh.rustup.rs -sSf | sh #安装rustup

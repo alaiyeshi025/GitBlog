@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       83bbe97c-2db5-4e29-85ec-ef18db26fbe0
+:END:
 #+title: 知识图谱
-#+roam_tags: 图计算
+#+filetags: 图计算
 
 

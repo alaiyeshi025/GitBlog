@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       789a25d4-2d50-49c3-a943-018177bfec7e
+:END:
 #+title: TrustZone
-#+roam_tags: TEE 隐私计算
+#+filetags: TEE 隐私计算

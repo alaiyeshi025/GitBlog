@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       2e2de167-cc19-46b3-9cbc-67d0fd47414a
+:END:
 #+title: 自动驾驶
-#+roam_tags: 汽车 出行 人工智能
+#+filetags: 汽车 出行 人工智能
 
 * 自动驾驶分级
   L0 级 ：驾驶员完全掌控车辆；

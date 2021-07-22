@@ -1,6 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#主要表][主要表]]
-
 * 主要表
   - sqlite_master 包含数据库所有对象信息
   #+begin_src sql

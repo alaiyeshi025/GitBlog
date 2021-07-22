@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b57e1aaf-5692-442b-85d4-c42f1493dd72
+:END:
 #+title: 标识解析
-#+roam_tags: 标识解析
+#+filetags: 标识解析
 

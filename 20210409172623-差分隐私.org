@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8fe65453-c3c0-4175-88fe-dd1b228edfc1
+:ROAM_ALIASES: DifferentialPrivacy
+:END:
 #+title: 差分隐私
-#+roam_tags: 隐私计算
-#+roam_alias: DifferentialPrivacy
+#+filetags: 隐私计算

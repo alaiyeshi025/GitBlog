@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       26833b20-368f-4280-9ec4-b05a09e024ca
+:END:
 #+title: 智慧医院
-#+roam_tags: 医疗 数字化 
+#+filetags: 医疗 数字化
 
 * 远程诊疗
 * 移动APP

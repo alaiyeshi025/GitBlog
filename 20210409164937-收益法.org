@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       6ab70677-afc6-494b-b39a-d0fe4273fd0f
+:END:
 #+title: 收益法
-#+roam_tags: 数据定价
+#+filetags: 数据定价

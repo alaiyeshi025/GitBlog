@@ -1,9 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#supporting-functions-for-281-and-282-exercises][Supporting functions for 2.81 and 2.82 exercises]]
-- [[#cons-stream实现][cons-stream实现]]
-- [[#exercise-370-merge-weighted-实现的注意事项][Exercise 3.70 merge-weighted 实现的注意事项]]
-- [[#377和378循环定义问题][3.77和3.78循环定义问题]]
-
 * Supporting functions for 2.81 and 2.82 exercises
   #+begin_src scheme
     ;;supporting function for type cierctions

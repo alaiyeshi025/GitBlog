@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       efdc7132-44ce-4b93-87be-c6c05c280323
+:ROAM_ALIASES: Fate FATE
+:END:
 #+title: fate
-#+roam_tags: 隐私计算
-#+roam_alias: FATE Fate
+#+filetags: 隐私计算
 
 * 优劣势
 *** 劣势

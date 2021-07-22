@@ -1,15 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#如何解压-tarxz-文件][如何解压 tar.xz 文件]]
-- [[#解压tarbz2文件][解压tar.bz2文件]]
-- [[#fixing-gpg-inappropriate-ioctl-for-device-errors][Fixing GPG "Inappropriate ioctl for device" errors]]
-- [[#warning-remote-host-identification-has-changed][WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!]]
-- [[#配置vnc][配置VNC]]
-- [[#如何在ubuntu-1804上安装和配置vnc][如何在Ubuntu 18.04上安装和配置VNC]]
-- [[#git-unpacking-objects-卡住][git unpacking objects 卡住]]
-- [[#hyper-v-ubuntu-1804-分辨率修改][Hyper-v Ubuntu 18.04 分辨率修改]]
-- [[#拉取部分github文件][拉取部分github文件]]
-- [[#替换git默认协议][替换git默认协议]]
-
 * 如何解压 tar.xz 文件
   #+begin_src shell
     tar xvJf *.tar.xz

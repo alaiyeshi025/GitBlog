@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       389c8b0a-eb49-4b0b-a9cd-821e15207b1d
+:END:
 #+title: 数据治理
 

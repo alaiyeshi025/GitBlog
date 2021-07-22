@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       40f71806-c8af-4cfc-b4cd-5ab2e76e8125
+:ROAM_ALIASES: CV
+:END:
 #+title: 图像识别
-#+roam_tags: 算法 人工智能
-#+roam_alias: CV
+#+filetags: 算法 人工智能

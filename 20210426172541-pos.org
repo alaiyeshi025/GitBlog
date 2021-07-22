@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       14d0c26f-0799-4c0a-b2cd-6236b1345519
+:END:
 #+title: POS
-#+roam_tags: 区块链 共识机制
+#+filetags: 区块链 共识机制
 

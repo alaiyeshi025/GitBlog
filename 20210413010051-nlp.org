@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       2a27bb9b-b382-4d3b-ac58-40d9b48df968
+:ROAM_ALIASES: 自然语言识别
+:END:
 #+title: NLP
-#+roam_tags: 自然语言识别 人工智能
-#+roam_alias: 自然语言识别
+#+filetags: 自然语言识别 人工智能
 
 * 主要算法
-  - [[file:20210413010149-知识图谱.org][知识图谱]]
-  - [[file:20210413010222-神经网络.org][神经网络]]
+  - [[id:83bbe97c-2db5-4e29-85ec-ef18db26fbe0][知识图谱]]
+  - [[id:2f754ac5-83cc-4171-aba4-f726acaf4db5][神经网络]]

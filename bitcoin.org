@@ -1,6 +1,7 @@
-* 目录                                                                  :TOC:
-- [[#参考文档][参考文档]]
-- [[#文摘][文摘]]
+:PROPERTIES:
+:ID:       bc6a2aa4-5e32-4fad-8296-0d4d5c033d7e
+:ROAM_ALIASES: 比特币
+:END:
 
 * 参考文档
   - https://www.jianshu.com/p/63dfc23c25d5 (中文综述)

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       4ff77a49-0655-43d4-9ea9-60404c119738
+:END:
 #+title: 保险
-#+roam_tags: 保险
+#+filetags: 保险
 
-* [[file:20210408174629-车险.org][车险]]
-* [[file:20210413004432-医保.org][医保]]  
+* [[id:916cbbe2-af53-4d35-a5dd-3ac2a086718e][车险]]
+* [[id:529bbaa4-d218-44f0-9c5c-993c55fde6ba][医保]]  

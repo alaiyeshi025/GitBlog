@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e337f5fb-4d19-4ad5-be09-f42bdb4fcfa5
+:END:
 #+title: sgx
-#+roam_tags: 隐私计算 TEE
+#+filetags: 隐私计算 TEE
 

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       3b206e0e-592a-4f8a-80b0-c4dd28ed11d2
+:END:
 #+title: 数据协同
 

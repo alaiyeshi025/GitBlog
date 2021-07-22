@@ -1,6 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#自动加解密-authinfo][自动加解密 authinfo]]
-
 * 自动加解密 authinfo
   - 修改 auth-sources 变量到相应 .authinfo.gpg 文件
   - 生成公私钥对 gpg --full-generate-key

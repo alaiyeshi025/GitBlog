@@ -1,9 +1,3 @@
-* 目录                                                                  :TOC:
-- [[#为-gitblog-定制的org-capture-寻址函数][为 GitBlog 定制的org-capture 寻址函数]]
-- [[#更改latex预览大小][更改LaTeX预览大小]]
-- [[#中文pdf导出][中文PDF导出]]
-- [[#快速插入特殊环境][快速插入特殊环境]]
-
 * 为 GitBlog 定制的org-capture 寻址函数
   #+begin_src emacs-lisp
     (defun GitBlog-FindHeading ()

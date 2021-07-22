@@ -1,12 +1,15 @@
+:PROPERTIES:
+:ID:       7a2baac8-0b2d-425f-b361-917f246a7d0e
+:ROAM_ALIASES: Flywheel 飞轮效应
+:END:
 #+title: flywheel
-#+roam_tags: 保险 Insurance
-#+roam_alias: 飞轮效应 Flywheel
+#+filetags: 保险 Insurance
 
 巴菲特心中理想的车险公司，应当：
 第一，以低成本战略，维持低价吸引客户；
-第二，最重要的是新单增长（反映在[[file:20210408174310-保险指标.org][保费增速]]和[[file:20210408174310-保险指标.org][获客成本]]），和续保客户的承保利润率（反映在[[file:20210408174310-保险指标.org][续保率]]和[[file:20210408174310-保险指标.org][综合成本率]]）；
+第二，最重要的是新单增长（反映在[[id:a74912a8-c8c6-44de-84d5-eb708587ea0a][保费增速]]和[[id:a74912a8-c8c6-44de-84d5-eb708587ea0a][获客成本]]），和续保客户的承保利润率（反映在[[id:a74912a8-c8c6-44de-84d5-eb708587ea0a][续保率]]和[[id:a74912a8-c8c6-44de-84d5-eb708587ea0a][综合成本率]]）；
 第三，承保利润中超过4%的部分，应当用于更多的普惠让利，以实现更多的新单增长，以此形成“增长飞轮”（Flywheel）。
 
 [[file:img/640.png]]
 
-典型案例： [[file:20210408173910-geico.org][GEICO]]
+典型案例： [[id:ecb7661c-f692-4a2f-b6b6-a1290522dff2][GEICO]]

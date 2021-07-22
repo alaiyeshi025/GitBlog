@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       81652b6c-e09a-4989-83e2-48f208e3779b
+:END:
 #+title: 大健康
-#+roam_tags: 医疗 保险 大健康
+#+filetags: 医疗 保险 大健康
 
 * 概念
 * 国内险企案例和布局  

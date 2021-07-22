@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f546431d-9787-4fd6-a1c9-17eeab855039
+:END:
 #+title: 成本法
-#+roam_tags: 数据定价
+#+filetags: 数据定价
 
