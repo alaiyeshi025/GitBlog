@@ -1,4 +1,7 @@
 * 涉及复杂类型的编写技巧
+  :PROPERTIES:
+  :ID:       e372b840-4acc-41ca-966f-ee56c4a8859f
+  :END:
   When you're not sure what to fill in for a value, have it as a \_, GHC will goes like "Found hole `_' with type: ISO (() -> a) (Maybe b0 -> a0). So you can immediately see value of what type are needed.
   This process can be repeat indefinitely.
   For example you might replace `_` with `isoFunc _ _` So GHC hint you on more specific type. This is especially usefull if you have complex type.

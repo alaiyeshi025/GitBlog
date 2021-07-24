@@ -2,6 +2,6 @@
 :ID:       ecb7661c-f692-4a2f-b6b6-a1290522dff2
 :END:
 #+title: GEICO
-#+filetags: 保险 Insurance
+#+filetags: :保险:Insurance:
 
 GEICO公司情况（to be research）

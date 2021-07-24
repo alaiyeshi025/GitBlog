@@ -3,7 +3,7 @@
 :ROAM_ALIASES: 医疗保险
 :END:
 #+title: 医保
-#+filetags: 医疗 保险
+#+filetags: :医疗:保险:
 
 * 医保核保核赔
   - 利用人工智能和大数据技术，替代部分[[id:8590eb8b-6248-475c-939b-c6dcdccb1e07][TPA]]工作

@@ -3,7 +3,7 @@
 :ROAM_ALIASES: 自然语言识别
 :END:
 #+title: NLP
-#+filetags: 自然语言识别 人工智能
+#+filetags: :自然语言识别:人工智能:
 
 * 主要算法
   - [[id:83bbe97c-2db5-4e29-85ec-ef18db26fbe0][知识图谱]]

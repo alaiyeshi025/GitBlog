@@ -2,7 +2,7 @@
 :ID:       7b2c513f-27d5-4192-8b5d-b74a294fcd0a
 :END:
 #+title: 场景库
-#+filetags: 应用场景
+#+filetags: :应用场景:
 
 * 金融
   - [[id:4ff77a49-0655-43d4-9ea9-60404c119738][保险]]

@@ -2,7 +2,7 @@
 :ID:       efd8d63f-4436-4de8-a6c2-ef0c89c2532b
 :END:
 #+title: 政府监管
-#+filetags: 监管科技
+#+filetags: :监管科技:
 
 * [[id:1976f3bf-de2b-4610-9a92-0ebf20884bf1][电信网络诈骗]]
 

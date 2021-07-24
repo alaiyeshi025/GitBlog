@@ -1,4 +1,7 @@
 * 安装和基本配置
+  :PROPERTIES:
+  :ID:       2c0954ea-b651-40e6-abfb-404c7be88a33
+  :END:
   #+begin_src bash
     curl https://sh.rustup.rs -sSf | sh #安装rustup
 

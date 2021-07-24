@@ -2,7 +2,7 @@
 :ID:       cbd488d2-91cc-445e-95d0-68bfe39b4cc7
 :END:
 #+title: UBI
-#+filetags: 保险 Insurance UBI
+#+filetags: :保险:Insurance:UBI:
 
 UBI，是Usage Based Insurance，基于使用的保险。 车险UBI，是指不同于原有定价方式（如年龄、驾龄、历史出险次数等静态因子），主要基于驾驶行为（如驾驶里程数、驾驶日间/夜间的时间段、道路环境安全度、急加速、减速、转向频率等）而定价的新型车辆商业保险。 道理很简单，开车的里程越少、道路越安全、风格越保守，当然风险越低，相应的保费也应该少交一点。
 

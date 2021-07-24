@@ -1,4 +1,7 @@
 * Anaconda清理无用缓存
+  :PROPERTIES:
+  :ID:       92190caa-46a3-4c38-92ff-44ff39120919
+  :END:
   #+begin_src anaconda
     conda clean -p      //删除没有用的包
     conda clean -t      //tar打包

@@ -2,7 +2,7 @@
 :ID:       390e500b-3ff9-4964-971b-99ae1cdabc85
 :END:
 #+title: 医疗数据协同
-#+filetags: 医疗 数据协同
+#+filetags: :医疗:数据协同:
 
 * 主要场景
   - [[id:16ec3070-68cd-4a52-bdd0-5c03639c5967][医疗科研]]

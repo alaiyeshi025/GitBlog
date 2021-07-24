@@ -1,4 +1,7 @@
 * 自动加解密 authinfo
+  :PROPERTIES:
+  :ID:       e8e925d3-f9b8-4a6e-b169-28547ebd91cb
+  :END:
   - 修改 auth-sources 变量到相应 .authinfo.gpg 文件
   - 生成公私钥对 gpg --full-generate-key
   - 加密 authinfo 文件 gpg --encrypt .autinfo 得到 .authinfo.gpg 文件

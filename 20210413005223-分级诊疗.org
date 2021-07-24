@@ -2,7 +2,7 @@
 :ID:       f162c186-1310-45cc-8b21-07173bba90f8
 :END:
 #+title: 分级诊疗
-#+filetags: 医疗
+#+filetags: :医疗:
 
 * 远程诊疗
 * 双向转诊

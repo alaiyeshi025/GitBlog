@@ -1,4 +1,7 @@
 * 异步执行
+  :PROPERTIES:
+  :ID:       70790ffd-7cd3-4c68-8a49-d51cb39b7347
+  :END:
   #+begin_src emacs-lisp
     (async-start-process NAME PROCESS FINISH-FUNC) ;;FINISH-FUNC 为回调函数 Emacs version 26.3
   #+end_src

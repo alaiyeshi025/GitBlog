@@ -2,7 +2,7 @@
 :ID:       f0cdc439-9a86-4efb-bbee-bbb8b495d71a
 :END:
 #+title: 数据定价
-#+filetags: 数据定价
+#+filetags: :数据定价:
 
 * 整体思路
 ** 边缘节点记录若干指标和参数

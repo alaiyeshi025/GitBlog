@@ -3,7 +3,7 @@
 :ROAM_ALIASES: fl FL FederatedLearning
 :END:
 #+title: 联邦学习
-#+filetags: 隐私计算
+#+filetags: :隐私计算:
 
 * 主要技术实现
   - [[id:efdc7132-44ce-4b93-87be-c6c05c280323][微众银行FATE]]

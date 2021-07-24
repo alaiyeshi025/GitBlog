@@ -3,14 +3,14 @@
 :ROAM_ALIASES: BlockChain
 :END:
 #+title: 区块链
-#+filetags: 区块链
+#+filetags: :区块链:
 
 * 主要实现
   - [[file:ethereum.org][Ethereum]]
   - [[id:ab0a96bd-b543-4852-a041-bdb81258bcf7][HyperLedger]]
  
 * 主要应用
-  - [[file:bitcoin.org][比特币]]
+  - [[id:bc6a2aa4-5e32-4fad-8296-0d4d5c033d7e][比特币]]
 
 * 共识机制
   - [[id:14d0c26f-0799-4c0a-b2cd-6236b1345519][POS]]

@@ -1,4 +1,7 @@
 * 操作系统查看main函数返回值
+  :PROPERTIES:
+  :ID:       c66f0f4a-606d-4de2-84f8-f3986f8f4c92
+  :END:
   #+begin_src bash
     echo $?
   #+end_src

@@ -3,7 +3,7 @@
 :ROAM_ALIASES: 可信执行环境 tee
 :END:
 #+title: TEE
-#+filetags: 隐私计算 TEE
+#+filetags: :隐私计算:TEE:
 
 * 根据芯片类型主要分为
   - [[id:e337f5fb-4d19-4ad5-be09-f42bdb4fcfa5][Intel SGX]]

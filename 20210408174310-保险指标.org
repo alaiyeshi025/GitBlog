@@ -3,7 +3,7 @@
 :ROAM_ALIASES: InsuranceKPI
 :END:
 #+title: 保险指标
-#+filetags: 保险 Insurance KPI
+#+filetags: :保险:Insurance:KPI:
 
 * 核心指标
   1. 保费增速

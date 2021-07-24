@@ -3,7 +3,7 @@
 :ROAM_ALIASES: 战略
 :END:
 #+title: strategy
-#+filetags: strategy
+#+filetags: :strategy:
 * 战略
   战略根本上是增长和增长方式(我们用什么样的方式、什么样的路径达成企业的增长)，战略的起点是市场
 

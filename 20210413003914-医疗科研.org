@@ -2,7 +2,7 @@
 :ID:       16ec3070-68cd-4a52-bdd0-5c03639c5967
 :END:
 #+title: 医疗科研
-#+filetags: 医疗 数据
+#+filetags: :医疗:数据:
 
 * 药物研究
   - 新药研发

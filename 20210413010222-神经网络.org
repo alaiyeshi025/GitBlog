@@ -2,5 +2,5 @@
 :ID:       2f754ac5-83cc-4171-aba4-f726acaf4db5
 :END:
 #+title: 神经网络
-#+filetags: 算法 人工智能
+#+filetags: :算法:人工智能:
 

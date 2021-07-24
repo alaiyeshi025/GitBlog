@@ -1,4 +1,7 @@
 * 主要表
+  :PROPERTIES:
+  :ID:       2d50e34c-fddc-4c60-93a0-a530d24292d6
+  :END:
   - sqlite_master 包含数据库所有对象信息
   #+begin_src sql
     select * from sqlite_master; -- where type = 'table'...

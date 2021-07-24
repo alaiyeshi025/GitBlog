@@ -2,5 +2,5 @@
 :ID:       08f42a7b-86bb-4520-9546-ca277d24ab20
 :END:
 #+title: 开放银行
-#+filetags: 数据协同
+#+filetags: :数据协同:
 

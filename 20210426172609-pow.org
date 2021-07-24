@@ -2,5 +2,5 @@
 :ID:       f5d3545d-3f3e-48dd-984f-f03e8f9de6c9
 :END:
 #+title: POW
-#+filetags: 区块链 共识机制
+#+filetags: :区块链:共识机制:
 

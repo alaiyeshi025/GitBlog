@@ -2,8 +2,8 @@
 :ID:       7a2baac8-0b2d-425f-b361-917f246a7d0e
 :ROAM_ALIASES: Flywheel 飞轮效应
 :END:
+#+filetags: :保险:Insurance:
 #+title: flywheel
-#+filetags: 保险 Insurance
 
 巴菲特心中理想的车险公司，应当：
 第一，以低成本战略，维持低价吸引客户；

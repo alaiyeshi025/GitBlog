@@ -2,7 +2,7 @@
 :ID:       b7f53111-9499-415b-a1ab-5ce4a8a38b17
 :END:
 #+title: 金融监管
-#+filetags: 监管科技
+#+filetags: :监管科技:
 
 * 外贸外汇监管
   - 外汇管理局区块链案例

@@ -1,4 +1,7 @@
 * 为 GitBlog 定制的org-capture 寻址函数
+  :PROPERTIES:
+  :ID:       15496f0f-de68-4376-8606-b347d8878da9
+  :END:
   #+begin_src emacs-lisp
     (defun GitBlog-FindHeading ()
         (interactive "P")

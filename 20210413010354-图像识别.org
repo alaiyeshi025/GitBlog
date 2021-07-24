@@ -3,4 +3,4 @@
 :ROAM_ALIASES: CV
 :END:
 #+title: 图像识别
-#+filetags: 算法 人工智能
+#+filetags: :算法:人工智能:
