@@ -81,4 +81,4 @@
   #+OPTIONS: toc:nil
   #+LATEX_HEADER: \usepackage{xeCJK}
   #+title: 金刚经讲义
-  #+roam_tags: 读书笔记
+  #+filetags: :读书笔记

@@ -1,7 +1,8 @@
+:PROPERTIES:
+:ID:       bd7a2f0b-5c33-4276-903f-6a492c8c9c49
+:END:
+
 * 如何解压 tar.xz 文件
-  :PROPERTIES:
-  :ID:       bd7a2f0b-5c33-4276-903f-6a492c8c9c49
-  :END:
   #+begin_src shell
     tar xvJf *.tar.xz
   #+end_src
@@ -61,5 +62,9 @@
 * 替换git默认协议
   git config --global url."git://".insteadOf https://
 
+* [[id:2d50e34c-fddc-4c60-93a0-a530d24292d6][Sqlite]]
+
+* [[id:70790ffd-7cd3-4c68-8a49-d51cb39b7347][Emacs General]]
+  
 * Options                                                          :noexport:
   #+title: Linux General

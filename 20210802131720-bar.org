@@ -3,5 +3,6 @@
 :END:
 #+title: bar
 
-this is a test text
+this is a bar text
+
 [[id:99bf7522-3116-4cef-81c9-9d65cd9f357f][foo]]

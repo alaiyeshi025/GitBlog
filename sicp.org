@@ -1,7 +1,4 @@
 * Supporting functions for 2.81 and 2.82 exercises
-  :PROPERTIES:
-  :ID:       0a6cb802-c153-45d1-a1ac-3efd131dc79d
-  :END:
   #+begin_src scheme
     ;;supporting function for type cierctions
     (require "ch2support.scm") ;codes comes along with text book, which define table and assotiated operations
@@ -83,4 +80,4 @@
   #+end_src
 * Options                                                          :noexport:
   #+title: SICP
-  #+roam_tags: 读书笔记
+  #+filetags: 读书笔记

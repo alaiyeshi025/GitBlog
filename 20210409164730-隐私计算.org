@@ -7,7 +7,7 @@
 * 当前包括
   - [[id:7c862c02-29d9-4a41-ba9c-71725cab50f0][TEE]]
   - [[id:8d4c6a1b-d3ed-4c49-b28b-0e1b379baf54][联邦学习]]
-  - [[file:mpc.org][多方安全计算（MPC）]]
+  - [[id:26328995-0f6e-4237-a06a-748835d3210c][多方安全计算MPC]]
   - [[id:5243ea64-3e08-4e7b-b5d3-124822960983][零知识证明]]
-  - [[file:HomomorphicEncryption.org][同态加密]]
+  - [[id:ca6c74f7-5179-414f-8e57-47a9a165ab73][同态加密]]
   - [[id:8fe65453-c3c0-4175-88fe-dd1b228edfc1][差分隐私]]

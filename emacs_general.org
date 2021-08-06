@@ -1,7 +1,8 @@
+:PROPERTIES:
+:ID:       70790ffd-7cd3-4c68-8a49-d51cb39b7347
+:END:
+
 * 异步执行
-  :PROPERTIES:
-  :ID:       70790ffd-7cd3-4c68-8a49-d51cb39b7347
-  :END:
   #+begin_src emacs-lisp
     (async-start-process NAME PROCESS FINISH-FUNC) ;;FINISH-FUNC 为回调函数 Emacs version 26.3
   #+end_src
@@ -160,5 +161,7 @@
          (setq geiser-active-implementations '(chez))
          (setq geiser-chez--prompt-regexp "debug> \\|> \\|.*: ")))
   #+end_src
+* [[id:e8e925d3-f9b8-4a6e-b169-28547ebd91cb][Gnus]]  
+* [[id:15496f0f-de68-4376-8606-b347d8878da9][Org Mode]]
 * Options                                                          :noexport:
   #+title: Emacs General

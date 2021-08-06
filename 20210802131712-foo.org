@@ -6,5 +6,4 @@
 * [[id:958054bf-536b-469f-bada-6fbe9f130962][bar]]
   - this is a test text
 * sdfsadf
-** [[id:958054bf-536b-469f-bada-6fbe9f130962][bar]]  
-   
+  [[id:958054bf-536b-469f-bada-6fbe9f130962][bar]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       842ec0e9-9b7e-422a-8599-abee33adbf92
+:END:
+#+title: Programming
+
+[[id:2c0954ea-b651-40e6-abfb-404c7be88a33][Rust]]
+[[id:c66f0f4a-606d-4de2-84f8-f3986f8f4c92][C++]]
+[[id:92190caa-46a3-4c38-92ff-44ff39120919][Python]]
+[[id:e372b840-4acc-41ca-966f-ee56c4a8859f][Haskell]]
