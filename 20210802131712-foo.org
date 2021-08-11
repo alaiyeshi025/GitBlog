@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       99bf7522-3116-4cef-81c9-9d65cd9f357f
-:END:
-#+title: foo
-
-* [[id:958054bf-536b-469f-bada-6fbe9f130962][bar]]
-  - this is a test text
-* sdfsadf
-  [[id:958054bf-536b-469f-bada-6fbe9f130962][bar]]
