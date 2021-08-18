@@ -33,5 +33,7 @@
   - <s <TAB> begin_src
   - <q <TAB> begin_quote
   - ……
+* org-recur biweekly
+  可以用++2w来定义，这个语法是Org自带的，语义是，从指定日期后的每两周发生，哪怕C-c d的日期发生在该定义日期后，重新安排后的星期将按照上一个确定的时间往后延
 * Options                                                          :noexport:
   #+title: Org Mode
