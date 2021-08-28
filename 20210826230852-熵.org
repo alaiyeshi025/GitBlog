@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       093d603c-92a1-4f06-90b3-95ea2fbb4795
+:ROAM_ALIASES: Entropy
+:END:
+#+title: 熵
+
+* 体系混乱程度的度量
+* 玻尔兹曼表达式
+  $S=K*ln(\Omega)$ 其中，K 为玻尔兹曼常熟， $\Omega$ 就是某种宏观态所对应微观态的数量
