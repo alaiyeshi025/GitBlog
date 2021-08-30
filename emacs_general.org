@@ -163,5 +163,12 @@
   #+end_src
 * [[id:e8e925d3-f9b8-4a6e-b169-28547ebd91cb][Gnus]]  
 * [[id:15496f0f-de68-4376-8606-b347d8878da9][Org Mode]]
+* 宏展开
+  (pp-macroexpand-last-sexp ARG)
+
+  Run ‘pp-macroexpand-expression’ on sexp before point.
+  With argument, pretty-print output into current buffer.
+  Ignores leading comment characters.
+
 * Options                                                          :noexport:
   #+title: Emacs General
