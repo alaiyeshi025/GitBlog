@@ -4,6 +4,7 @@
 :END:
 #+title: flywheel
 #+filetags: :保险:Insurance:
+#+LATEX_HEADER: \usepackage{xeCJK}
 
 巴菲特心中理想的车险公司，应当：
 第一，以低成本战略，维持低价吸引客户；
